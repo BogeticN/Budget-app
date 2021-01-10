@@ -1,0 +1,189 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+#wrapper1 {
+  background: url('Mountain-top.jpg'); 
+  background-size: cover;
+  height: 23rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#wrapper1 #stanje {
+  height: 20%;
+  text-align: center;
+  font-size: 50px;
+}
+
+#wrapper1 #prihodParagraf {
+  height: 60px;
+  background-color: #28B9B5;
+  padding: 12px;
+  text-transform: uppercase;
+  width: 20%;
+  margin: auto;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+}
+
+#wrapper1 #rashodParagraf {
+  height: 60px;
+  background-color: #FF5049;
+  padding: 12px;
+  text-transform: uppercase;
+  width: 20%;
+  margin: 5px auto;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+}
+
+#wrapper1 #cifraPrihod, #wrapper1 #cifraRashod {
+  display: inline-block;
+  text-align: right;
+  letter-spacing: 1px;
+  width: 45%;
+  padding-right: auto;
+}
+
+#wrapper1 #prihodTxt, #wrapper1 #rashodTxt {
+  width: 30%;
+}
+
+#wrapper1 #space, #wrapper1 #procenat {
+  width: 50px;
+  text-align: center;
+  margin-left: auto;
+}
+
+#wrapper1 #procenat {
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-bottom: 5px;
+  background-color: #b45656;
+}
+
+#div-forma {
+  border-bottom: 1px solid #e7e7e7;
+  background: #f7f7f7;
+  margin-top: 85px;
+  text-align: center;
+}
+
+#div-forma select {
+  width: 35px;
+  height: 35px;
+}
+
+#div-forma input {
+  width: 20%;
+  height: 35px;
+}
+
+#div-forma input#iznos {
+  width: 100px;
+}
+
+#div-forma #potvrda {
+  font-size: 35px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.1;
+  margin-left: 10px;
+  color: #28B9B5;
+}
+
+.liste {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.liste #prihod {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.liste #prihod #prihodiNaslov {
+  color: #28B9B5;
+}
+
+.liste #rashod {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.liste #rashod #rashodiNaslov {
+  color: #FF5049;
+}
+
+#prihodiLi, #rashodiLi {
+  display: block;
+  height: 50px;
+  border-bottom: 1px grey solid;
+  margin-top: 15px;
+}
+
+#prihodiLi:hover .dugmeDlt, #rashodiLi:hover .dugmeDlt {
+  visibility: visible;
+}
+
+#prihodiLi .spanOpis, #rashodiLi .spanOpis {
+  float: left;
+  width: 55%;
+  text-align: left;
+}
+
+#prihodiLi .dugmeDlt, #rashodiLi .dugmeDlt {
+  float: right;
+  visibility: hidden;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 0.7;
+  margin-left: 10px;
+  color: #FF5049;
+}
+
+#prihodiLi .spanCifra, #rashodiLi .spanCifra {
+  width: 15%;
+  float: left;
+  text-align: right;
+}
+
+#prihodiLi #spanProcenat, #rashodiLi #spanProcenat {
+  display: inline-block;
+  text-align: right;
+  width: 15%;
+  margin: auto;
+}
+
+#wrapper2 {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */

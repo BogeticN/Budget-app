@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrihodiRashodi</title>
+    <link rel="stylesheet" href="scss/css/main.css">
+    <link 
+        href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+    rel="stylesheet"  type='text/css'>
+</head>
+
+<body>
+    <div id="wrapper1">
+        <h1>Dostupan budzet u Januaru 2021:</h1>
+        <p id="stanje">0</p>
+        <div id="prihodiRashodi">
+            <p id="prihodParagraf"><span id="prihodTxt">Prihod</span> <span id="cifraPrihod">0</span> <span id="space"> </span></p>
+            <p id="rashodParagraf"><span id="rashodTxt">Rashod</span> <span id="cifraRashod">0</span> <span id="procenat"></span>
+            </p>
+        </div>
+        
+        <div id="div-forma">
+            <form id="forma">
+                <select name="plusMinus" id="plusMinus">
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                </select>
+                <input type="text" placeholder="Opis" id="opis"></input>
+                <input type="number" placeholder="Iznos" id="iznos"></input>
+                <button type="submit"id="potvrda"><i class="fa fa-check-circle"></i></button>
+
+                
+            </form>
+        </div>
+    </div>
+    <div id="wrapper2">
+        <div class="liste">
+            <div id="prihod">
+                <h3 id="prihodiNaslov">Prihodi</h3>
+                <hr>
+                <ul id="prihodi-lista">
+
+                </ul>
+            </div>
+            <div id="rashod">
+                <h3 id="rashodiNaslov">Rashodi</h3>
+                <hr>
+                <ul id="rashodi-lista">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+
+</html>
