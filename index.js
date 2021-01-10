@@ -27,7 +27,7 @@ const addToDomPrihodi = prihod => {
 
     const dltPrihodi = document.createElement('button')
 
-    dltPrihodi.innerHTML = `<i class="large material-icons">close</i>`
+    dltPrihodi.innerHTML = `<i class="fa fa-times"></i>`
     dltPrihodi.className = 'dugmeDlt'
     dltPrihodi.addEventListener('click', () => {
         li.remove()
@@ -57,7 +57,7 @@ const addToDomRashodi = rashod => {
     li.innerHTML = `<span class="spanOpis">${opis.value}</span> <span class="spanCifra"> -${cifra.value}</span> <span id="spanProcenat">${procenat(Number(cifra.value), suma)} %</span>`
     const dltRashodi = document.createElement('button')
 
-    dltRashodi.innerHTML = `<i class="large material-icons">close</i>`
+    dltRashodi.innerHTML = `<i class="fa fa-times"></i>`
     dltRashodi.className = 'dugmeDlt'
     dltRashodi.addEventListener('click', () => {
         li.remove()
